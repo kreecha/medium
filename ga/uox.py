@@ -9,6 +9,14 @@ import copy
 import random
 
 def uniform_based_order(individual_1, individual_2, shuffle_size=5):
+    """
+    uniform based order crossover
+    
+    :param individual_1: 
+    :param individual_2: 
+    :param shuffle_size: 
+    :return: two children
+    """
 
     child_1 = copy.deepcopy(individual_1)
     child_2 = copy.deepcopy(individual_2)
